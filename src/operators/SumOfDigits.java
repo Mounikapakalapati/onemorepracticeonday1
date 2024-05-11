@@ -17,6 +17,15 @@ public class SumOfDigits {
         }
         System.out.println(+sum);
 
+        int j= 560;
+        for(sum=0;j!=0;j=j/10){
+            sum = sum + j%10;
+
+        }
+        System.out.println(+sum);
+
+
+
         // reverse this number = 98
 
           int m = 3456;
@@ -33,17 +42,6 @@ public class SumOfDigits {
           }
         System.out.println(+reverse);
 
-         byte k = (byte)300;
-
-        System.out.println(k);
-        int l =10;
-        int n=7;
-        double db1= l/n;
-        double db2 =(double)l/n;
-        double db3 =l/(double)n;
-        System.out.println(db1);
-        System.out.println(db2);
-        System.out.println(db3);
 
 
 
