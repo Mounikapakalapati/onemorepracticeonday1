@@ -12,17 +12,21 @@ public class Acceptingtwointegers {
         System.out.print("Enter j value =");
         j = scan.nextInt();
 
+        double avg = (i + j)/2.0;
+
         System.out.println("Sum of two digits = " + (i + j));
         System.out.println("Difference of two digits = " + (i - j));
         System.out.println("Product of two digits = " + (i * j));
-        System.out.println("Average of two digits = " + i / j);
+        System.out.println("Average of two digits = " + avg);
         System.out.println("Distance of two digits = " + (i - j));
 
-        if (i > j){
+        if (i > j) {
             System.out.println("Maximum number is =" + i);
-    }
-        if(i < j){
-            System.out.println("Minimum number is =" +j);
+            System.out.println("Minumum number is =" + j);
+        }
+        if(j > i){
+            System.out.println("Maximum number is =" +j);
+            System.out.println("Minumum number is =" + i);
         }
 
     }
